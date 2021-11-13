@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.navbar {
+  background-color: transparent;
+  padding-bottom: 0;
+}
+ul {
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-text{
+  word-spacing: 30px;
+}
+.navbar-brand{
+ font-family: 'Mulish', sans-serif;
+ font-size: 18px;
+}
