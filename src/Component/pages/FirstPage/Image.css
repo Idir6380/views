@@ -1,0 +1,45 @@
+.circle {
+  height: 390px;
+  width: 390px;
+  background-color: #000;
+  border-radius: 47%;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.white-circle {
+  height: 385px;
+  width: 385px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  z-index: 2;
+}
+.Hello-square {
+  position: absolute;
+  top: 20%;
+  right: 50%;
+  z-index: 3;
+}
+svg{
+    position: absolute;
+    left: 10%;
+}
+
+#right-wheel,
+#left-wheel {
+  animation: wheel 15s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes wheel {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}

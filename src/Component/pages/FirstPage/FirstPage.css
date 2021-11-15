@@ -1,0 +1,12 @@
+.row{
+    padding: 5% 20%;
+}
+.right-half{
+    color: #fff;
+}
+.btn{
+ background-color: #FC8E5B;
+ border-radius: 30px;
+ padding: 5px 10px;
+ padding-bottom: 10px;
+}
