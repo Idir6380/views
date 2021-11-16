@@ -1,12 +1,21 @@
-.row{
-    padding: 5% 20%;
+.btn {
+  background-color: #fc8e5b;
+  border-radius: 30px;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  width: 9rem;
+  margin-left: 20px;
 }
-.right-half{
-    color: #fff;
+
+.right-half {
+  padding-top: 8%;
+  color: #fff;
 }
-.btn{
- background-color: #FC8E5B;
- border-radius: 30px;
- padding: 5px 10px;
- padding-bottom: 10px;
+.left-half {
+  padding: 5%;
+}
+.cont {
+  margin: 0;
+  padding: 5.8% 11% 4.35% 20%;
 }
