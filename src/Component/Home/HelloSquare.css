@@ -1,0 +1,50 @@
+.hello-square {
+  border: 1px solid #fff;
+
+  border-radius: 15%;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.44);
+
+  padding: 10px 0px 10px 25px;
+}
+
+.hello-square h1 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+  font-size: 4.5em;
+  margin: 0;
+  line-height: 5rem;
+  letter-spacing: 0.15rem;
+  padding: none;
+}
+.hello-square span {
+  text-decoration: underline;
+  text-decoration-color: #fc8e5b;
+}
+.hello-square p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+}
+@media (max-width: 600px) {
+  .hello-square {
+  }
+  .hello-square h1 {
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+    margin: 0;
+    line-height: 5rem;
+    letter-spacing: 0.15rem;
+    padding: none;
+  }
+  .hello-square p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1rem;
+  }
+}

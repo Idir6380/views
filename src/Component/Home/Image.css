@@ -1,0 +1,104 @@
+.circle {
+  position: relative;
+  border-radius: 47%;
+
+  background-color: #161616;
+  width: 550px;
+  height: 550px;
+  z-index: 1;
+}
+.light-circle {
+  position: relative;
+  border-radius: 47%;
+
+  background-color: #70e1e4;
+  width: 550px;
+  height: 550px;
+  z-index: 1;
+}
+
+.white-circle {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+  left: 0%;
+  z-index: 2;
+  top: 1%;
+}
+.dark-circle {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+  left: 0%;
+  z-index: 2;
+  top: 1%;
+}
+.Hello-square {
+  position: absolute;
+  /* floutter le rectangle */
+  backdrop-filter: blur(4px);
+  width: 51%;
+  top: 29%;
+  right: 71%;
+  z-index: 3;
+}
+.animate svg {
+  position: absolute;
+  left: 13%;
+  top: 11%;
+  height: 80%;
+  width: 75%;
+}
+
+#right-wheel,
+#left-wheel {
+  animation: wheel 15s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes wheel {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+@media (max-width: 600px) and (min-width: 370px) {
+  .Hello-square {
+    right: 7.9%;
+    width: 85%;
+  }
+  .circle {
+    width: 13.5rem;
+    height: 13.5rem;
+  }
+}
+@media (max-width: 1100px) and (min-width: 600px) {
+  .circle {
+    width: 29rem;
+    height: 29rem;
+    padding: 0px;
+  }
+}
+@media (max-width: 370px) {
+  .circle {
+    width: 250px;
+    height: 250px;
+  }
+  .Hello-square {
+    position: absolute;
+    left: 30px;
+    top: 49px;
+    right: 0;
+    width: 75%;
+  }
+}

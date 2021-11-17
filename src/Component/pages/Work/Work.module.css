@@ -1,0 +1,100 @@
+.head {
+  width: 268px;
+  height: 115px;
+
+  margin-left: 40%;
+  margin-top: 4%;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 104px;
+  line-height: 110.7%;
+
+  /* or 115px */
+
+  letter-spacing: -0.03em;
+}
+
+.line {
+  width: 111px;
+  height: 0px;
+  text-decoration: underline;
+
+  left: 197px;
+  top: 345px;
+  margin-left: 10%;
+
+  text-decoration-color: #fc8e5b;
+}
+
+.scrollpage {
+  width: 150px;
+  height: 0px;
+  background: #f5ea95;
+
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.annonce {
+  background-color: #f5ea95;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.title {
+  font-family: Barlow;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  color: #3d1734;
+  margin-bottom: 0rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
+}
+.txt1 {
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  color: #25313c;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  padding: 0rem 1rem 2.5rem 1rem;
+  margin-bottom: 0%;
+}
+.txt {
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  color: #25313c;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  padding: 0rem 1rem 2rem 1rem;
+  margin-bottom: 0%;
+}
+.scroll {
+  padding: 0;
+  width: 628px;
+  height: 340px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+@media (max-width: 600px) {
+  .head {
+    font-size: 70px;
+    padding: 5rem 15rem 5rem 0rem;
+    margin: auto;
+  }
+  .scl {
+    width: 200px;
+  }
+  .Workcont {
+    padding-top: 5rem;
+    margin: 0;
+  }
+}
