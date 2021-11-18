@@ -19,7 +19,8 @@ function App() {
 
   return (
     <div className={Darkmode ? 'dark' : 'light'}>
-      <div className='top'>
+    <div className="Big-screen"> 
+    <div className='top'>
         <div>
           <div className='gray-line-1'></div>
           {Darkmode ? <Mixin /> : <MixinLight />}
@@ -42,6 +43,13 @@ function App() {
         </Route>
       </main>
       <BottomNavbar />
+     </div>
+    <div className="small-screen">
+              <FirstPage Circle={Darkmode} />
+              <WorkPage />
+                <SkillsPage Image={Darkmode} />
+                   <ContactForm Icon={Darkmode} />
+                      <BottomNavbar />
     </div>
   )
 }
