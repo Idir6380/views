@@ -48,3 +48,14 @@
   top: 17px;
   height: 35px;
 }
+.small-screen{
+display:none;
+}
+@media (max-width: 770px){
+  .big-screen{
+  display:none;
+  }
+  .small-screen{
+    display: block;
+  }
+}
