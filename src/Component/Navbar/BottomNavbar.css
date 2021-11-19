@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.navbar {
+  background-color: transparent;
+  padding-bottom: 0;
+  position: static;
+  text-decoration: none;
+}
+
+ul {
+  align-items: center;
+}
+.nav-link {
+  color: #fff;
+}
+.navbar-text {
+  word-spacing: 30px;
+}
+.navbar-brand {
+  color: inherit;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+}
+.nav-item {
+  color: #fff;
+}
+
+@media (max-width: 770px) {
+  .navbar {
+    display: none;
+  }
+  .navbar-text {
+    display: none;
+  }
+  .nav-item {
+    color: #fff;
+  }
+}

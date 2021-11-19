@@ -1,0 +1,28 @@
+.btn {
+  background-color: #fc8e5b;
+  border-radius: 30px;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  width: 9rem;
+  margin-left: 20px;
+}
+
+.right-half {
+  padding-top: 8%;
+}
+
+.cont {
+  margin: 0;
+  padding: 7% 5% 11% 25%;
+}
+
+@media (max-width: 370px) {
+  .right-half h1 {
+    font-size: 4rem;
+  }
+  .cont {
+    margin: 0;
+    padding: 17% 11% 4.35% 11%;
+  }
+}
