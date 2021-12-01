@@ -1,0 +1,78 @@
+.dark {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #1d1d1d;
+}
+.light input {
+  background-color: #fc8e5bcf;
+}
+.light textarea {
+  background-color: #fc8e5bcf;
+}
+.light .big-space-span {
+  color: #fff;
+}
+.top {
+  position: relative;
+}
+.gray-line-1 {
+  position: absolute;
+
+  width: 40%;
+  height: 0%;
+  border: 1px solid #565656;
+  top: 30px;
+  left: 5%;
+}
+.gray-line-1-light {
+  position: absolute;
+
+  width: 40%;
+  height: 0%;
+  border: 1px solid #25313c;
+  top: 30px;
+  left: 5%;
+}
+.gray-line-2 {
+  position: absolute;
+  width: 40%;
+  height: 0%;
+  border: 1px solid #565656;
+  left: 52%;
+  top: 30px;
+}
+.gray-line-2-light {
+  position: absolute;
+  width: 40%;
+  height: 0%;
+  border: 1px solid #25313c;
+  left: 52%;
+  top: 30px;
+}
+.mixin-logo {
+  position: absolute;
+  top: 34px;
+  left: 47.5%;
+  height: 30px;
+  top: 17px;
+}
+.theme-svg {
+  position: absolute;
+  right: 3%;
+  top: 17px;
+  height: 35px;
+}
+.small-screen {
+  display: none;
+}
+@media (max-width: 770px) {
+  .big-screen {
+    display: none;
+  }
+  .small-screen {
+    display: list-item;
+  }
+}
