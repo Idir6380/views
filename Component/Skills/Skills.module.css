@@ -1,0 +1,111 @@
+.contain {
+  padding-top: 7.5vh;
+  padding-bottom: 8.565vh;
+}
+.rows {
+  padding: 0px 210px;
+}
+.head {
+  padding-right: 15rem;
+  padding-left: 10rem;
+  padding-top: 75px;
+
+  width: 100%;
+}
+.container {
+  margin: 3rem;
+}
+.logo {
+  float: left;
+  width: 60px;
+  height: 74.63px;
+  margin-right: -0.5rem;
+}
+.text {
+  float: left;
+  font-family: Lexend Exa;
+}
+.cols {
+  padding: 0;
+  margin: 0px;
+  position: relative;
+}
+
+.title {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 104px;
+  line-height: 97px;
+
+  /* or 93% */
+
+  text-align: center;
+}
+.line {
+  text-decoration: underline;
+  text-decoration-color: #fc8e5b;
+}
+
+.right {
+  margin-right: 150;
+}
+.left {
+  margin-right: 150px;
+}
+@media (max-width: 600px) {
+  .title {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 97px;
+    padding: none;
+    margin: 0;
+
+    /* or 93% */
+  }
+  .head {
+    padding-left: 0;
+    margin: 0;
+  }
+  .right {
+    margin-left: 0%;
+  }
+  .left {
+    margin-right: 0%;
+  }
+  .line {
+    text-decoration: none;
+    text-decoration-color: #fc8e5b;
+  }
+  .line2 {
+    text-decoration: underline;
+    text-decoration-color: #fc8e5b;
+  }
+  .rows {
+    padding: 0;
+  }
+}
+@media (max-width: 1400px) and (min-width: 601px) {
+  .title {
+    font-size: 6rem;
+  }
+  .rows {
+    padding: 0;
+  }
+  .head {
+    padding-left: 0;
+  }
+}
+@media (max-width: 599px) and (min-width: 375px) {
+  .title {
+    font-size: 5rem;
+    padding-left: 0;
+  }
+}
+@media (max-width: 370px) {
+  .title {
+    font-size: 3rem;
+  }
+}
